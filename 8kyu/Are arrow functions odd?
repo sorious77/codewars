@@ -1,0 +1,8 @@
+def odds(values):
+    answer = []
+    
+    for i in values:
+        if i % 2 == 1:
+            answer.append(i)
+    
+    return answer
